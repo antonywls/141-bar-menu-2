@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+@import 'tailwindcss';
+
+html {
+  height: -webkit-fill-available;
+  /* background set dynamically by JS — color + noise texture blended together */
+}
+
+body {
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+  background-color: transparent;
+  font-family: 'Outfit', system-ui, 'PingFang TC', 'Noto Sans TC', 'Malgun Gothic', 'Noto Sans KR', 'Noto Sans JP', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  min-height: 100dvh;
+  background-color: transparent;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

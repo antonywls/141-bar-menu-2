@@ -1,0 +1,10 @@
+{
+  "description": "Access a digital bar menu on mobile by scanning a QR code, featuring cocktails and specials in multiple languages with detailed descriptions and ingredients.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
