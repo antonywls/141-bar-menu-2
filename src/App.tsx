@@ -26,21 +26,21 @@ const specialsItems: Item[] = [
     price: "350",
   },
   {
-    names: { en: "Tiramisu", zh: "提拉米蘇", ko: "티라미수", ja: "ティラミス" },
+    names: { en: "Tiramisu Cocktail", zh: "提拉米蘇特調", ko: "티라미수 칵테일", ja: "ティラミスカクテル" },
     price: "300",
+  },
+  {
+    names: { en: "Honey Lemon Cocktail", zh: "蜂蜜檸檬特調", ko: "허니 레몬 칵테일", ja: "ハニーレモンカクテル" },
+    price: "250",
+  },
+  {
+    names: { en: "Pineapple Cocktail", zh: "鳳梨軟糖特調", ko: "파인애플 칵테일", ja: "パイナップルカクテル" },
+    price: "250",
   },
   {
     names: { en: "I'm Only Nice Because I'm Drunk", zh: "溫柔都是酒裝的", ko: "취해야 착한 나", ja: "お酒のおかげで優しい" },
     price: "280",
     ingredients: { en: "green milk tea · milk liqueur", zh: "奶綠 · 奶酒", ko: "그린 밀크티 · 밀크 리큐어", ja: "グリーンミルクティー · ミルクリキュール" },
-  },
-  {
-    names: { en: "Honey Lemon Cocktail", zh: "蜂蜜檸檬", ko: "허니 레몬", ja: "ハニーレモン" },
-    price: "250",
-  },
-  {
-    names: { en: "Pineapple Cocktail", zh: "鳳梨軟糖", ko: "파인애플 젤리", ja: "パイナップルグミ" },
-    price: "250",
   },
   {
     names: { en: "Wakey Wakey", zh: "姊妹醒醒", ko: "일어나 언니", ja: "目を覚ませ" },
