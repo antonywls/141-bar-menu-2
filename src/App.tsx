@@ -184,7 +184,7 @@ const beerItems: Item[] = [
 ];
 
 const tabColors: Record<Tab, string> = {
-  specials: "#b8888a",
+  specials: "#7798aaff",
   cocktails: "#a85e3a",
   soju: "#9e8e78",
 };
