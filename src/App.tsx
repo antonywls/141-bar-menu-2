@@ -22,14 +22,25 @@ const ui: Record<string, Record<Lang, string>> = {
 
 const specialsItems: Item[] = [
   {
-    names: { en: "Spiked Milk Tea", zh: "成年人的奶茶", ko: "어른들의 밀크티", ja: "大人のミルクティー" },
-    price: "280",
-    ingredients: { en: "milk tea · milk liqueur", zh: "奶茶 · 奶酒", ko: "밀크티 · 밀크 리큐어", ja: "ミルクティー · ミルクリキュール" },
+    names: { en: "Whiskey Sour with Caramel Milk Cap", zh: "威士忌酸焦糖奶蓋", ko: "위스키 사워 캐러멜 크림탑", ja: "ウイスキーサワー キャラメルクリームトップ" },
+    price: "350",
+  },
+  {
+    names: { en: "Tiramisu", zh: "提拉米蘇", ko: "티라미수", ja: "ティラミス" },
+    price: "300",
   },
   {
     names: { en: "I'm Only Nice Because I'm Drunk", zh: "溫柔都是酒裝的", ko: "취해야 착한 나", ja: "お酒のおかげで優しい" },
     price: "280",
     ingredients: { en: "green milk tea · milk liqueur", zh: "奶綠 · 奶酒", ko: "그린 밀크티 · 밀크 리큐어", ja: "グリーンミルクティー · ミルクリキュール" },
+  },
+  {
+    names: { en: "Honey Lemon Cocktail", zh: "蜂蜜檸檬", ko: "허니 레몬", ja: "ハニーレモン" },
+    price: "250",
+  },
+  {
+    names: { en: "Pineapple Cocktail", zh: "鳳梨軟糖", ko: "파인애플 젤리", ja: "パイナップルグミ" },
+    price: "250",
   },
   {
     names: { en: "Wakey Wakey", zh: "姊妹醒醒", ko: "일어나 언니", ja: "目を覚ませ" },
@@ -45,11 +56,6 @@ const specialsItems: Item[] = [
     names: { en: "It's Complicated", zh: "曖昧保鮮期", ko: "썸의 유통기한", ja: "曖昧な関係" },
     price: "230",
     ingredients: { en: "passion fruit · green tea cocktail", zh: "百香綠茶調酒", ko: "패션프루트 · 녹차 칵테일", ja: "パッションフルーツ · 緑茶カクテル" },
-  },
-  {
-    names: { en: "Secret Menu", zh: "隱藏版", ko: "숨겨진 메뉴", ja: "隠しメニュー" },
-    price: "?",
-    ingredients: { en: "bartender's mood", zh: "bartender's mood", ko: "바텐더 기분대로", ja: "バーテンダー次第" },
   },
 ];
 
@@ -68,6 +74,11 @@ const classicItems: Item[] = [
     names: { en: "Long Island Iced Tea", zh: "長島冰茶", ko: "롱아일랜드 아이스티", ja: "ロングアイランド" },
     price: "350",
     ingredients: { en: "5 classic spirits · lemon juice · cola", zh: "經典基酒5種 · 檸檬汁 · 可樂", ko: "5가지 클래식 스피리츠 · 레몬주스 · 콜라", ja: "クラシックベース5種 · レモンジュース · コーラ" },
+  },
+  {
+    names: { en: "Piña Colada", zh: "椰林飄香", ko: "피냐 콜라다", ja: "ピニャコラーダ" },
+    price: "280",
+    ingredients: { en: "rum · coconut cream · pineapple juice", zh: "蘭姆 · 椰奶 · 鳳梨汁", ko: "럼 · 코코넛 크림 · 파인애플주스", ja: "ラム · ココナッツクリーム · パイナップルジュース" },
   },
   {
     names: { en: "Godfather", zh: "教父", ko: "대부", ja: "ゴッドファーザー" },
